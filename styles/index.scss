@@ -1,4 +1,9 @@
-@import 'breakpoints.scss';
-@import 'variables.scss';
-@import 'footer.scss';
-@import 'header.scss';
+@import './breakpoints.scss';
+@import './variables.scss';
+@import './common.scss';
+@import './page-header.scss';
+@import './headline.scss';
+@import './desktop-invitation.scss';
+@import './reviews.scss';
+
+@import './footer.scss';

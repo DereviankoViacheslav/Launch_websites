@@ -7,12 +7,89 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Designer Variation</title>
 </head>
 
 <body>
-    
+
+    <!-- Header-->
+
+    <header class="page-header">
+
+        <!-- Logo -->
+
+        <div class="page-header__logo logo">
+            <img class="logo__img" src="./img/logo-small-solid.png" alt="logo">
+            <span class="logo__text">VanGoux</span>
+        </div>
+
+        <!-- Nav -->
+
+        <nav class="page-header__navigation nav">
+            <ul class="nav__list">
+                <li class="nav__item"><span class="nav__text">How it works</span></li>
+                <li class="nav__item"><span class="nav__text">Features</span></li>
+                <li class="nav__item"><span class="nav__text">Use cases</span></li>
+                <li class="nav__item"><span class="nav__text">Schedule a demo</span></li>
+            </ul>
+            <button class="page-header__upload-btn btn">Upload Sketch</button>
+        </nav>
+    </header>
+
+    <!-- Headline -->
+
+    <section class="headline">
+        <div class="headline__content">
+            <h1 class="headline__title">Launch websites directly from Sketch</h1>
+            <p class="headline__description">
+                Create pixel perfect websites, landing pages & portfolios directly from your Sketch designs
+            </p>
+            <button class="headline__upload-btn btn">Upload Your Sketch File</button>
+        </div>
+        <img class="headline__illustration" src="./img/illustration-headline.png" alt="illustration">
+    </section>
+
+    <!-- Desktop invitation -->
+
+    <section class="desktop-invitation">
+        <p class="desktop-invitation__text">
+            Please visit our desktop site to upload your Sketch designs
+        </p>
+    </section>
+
+    <!-- Reviews -->
+
+    <section class="reviews">
+        <div class="reviews__item review">
+            <div class="review__avatar-wrapper">
+                <img class="review__avatar" src="./img/review-avatar-man.png" alt="avatar">
+                <div class="review__avatar-description">
+                    <span class="review__name">John Doe</span>
+                    <p class="review__position">CEO, PrettyDopeDesigns</p>
+                </div>
+            </div>
+            <p class="review__text">
+                “Our senior frontend developer was 70% faster in building React.js components thanks to VanGoux!”
+            </p>
+            <img class="review__decor-quote" src="./img/illustration-quote.png" alt="decor quote">
+        </div>
+        <div class="reviews__item review">
+            <div class="review__avatar-wrapper">
+                <img class="review__avatar" src="./img/review-avatar-woman.png" alt="avatar">
+                <div class="review__avatar-description">
+                    <span class="review__name">Jane Goodman</span>
+                    <p class="review__position">Founder, ImpactNation</p>
+                </div>
+            </div>
+            <p class="review__text">
+                “It was awesome to see VanGoux turn our MVP designs into code within minutes.”
+            </p>
+            <img class="review__decor-quote" src="./img/illustration-quote.png" alt="decor quote">
+        </div>
+    </section>
+
 </body>
 
 </html>

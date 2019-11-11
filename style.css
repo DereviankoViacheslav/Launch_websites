@@ -1,3 +1,226 @@
+* {
+  box-sizing: border-box;
+}
 
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  background: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url(../img/bg-main-decor.png);
+  }
+}
+
+.btn {
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 80px 0;
+}
+@media screen and (min-width: 1024px) {
+  .page-header {
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .page-header__upload-btn {
+    width: 180px;
+    color: #fff;
+    background-color: #1968FC;
+  }
+}
+.page-header__navigation {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo__text {
+  margin-left: 10px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1968FC;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav {
+    display: flex;
+  }
+  .nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 540px;
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    list-style-type: none;
+  }
+  .nav__text {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .headline {
+    position: relative;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+}
+.headline__content {
+  margin: 80px;
+}
+@media screen and (min-width: 1024px) {
+  .headline__content {
+    max-width: 600px;
+    margin: 0;
+  }
+}
+.headline__title {
+  margin: 0;
+  padding: 0;
+  line-height: 60px;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #11223F;
+}
+.headline__description {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 40px;
+  color: #11223F;
+}
+.headline__upload-btn {
+  width: 300px;
+  margin-top: 40px;
+  color: #fff;
+  background-color: #1968FC;
+}
+.headline__illustration {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  z-index: 100;
+}
+@media screen and (min-width: 1024px) {
+  .headline__illustration {
+    position: absolute;
+    right: 0;
+    top: 50px;
+  }
+}
+
+.desktop-invitation {
+  position: relative;
+  margin-top: -62px;
+  padding: 30px 60px;
+  background-image: url(../img/bg-please-visit-desktop-site-section.png);
+}
+@media screen and (min-width: 1024px) {
+  .desktop-invitation {
+    display: none;
+  }
+}
+.desktop-invitation__text {
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+@media screen and (min-width: 1024px) {
+  .reviews {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 160px;
+  }
+}
+
+.review {
+  position: relative;
+  width: 540px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+}
+@media screen and (min-width: 1024px) {
+  .review {
+    margin: 0;
+  }
+}
+.review__avatar-wrapper {
+  display: flex;
+  align-items: center;
+}
+.review__avatar {
+  height: 100px;
+  width: 100px;
+}
+.review__avatar-description {
+  display: inline-block;
+  margin-left: 20px;
+}
+.review__name {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.review__position {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  color: #1967FA;
+  opacity: 0.8;
+}
+.review__decor-quote {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+.review__text {
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+  line-height: 30px;
+  font-size: 16px;
+  color: #11223F;
+}
 
 /*# sourceMappingURL=style.css.map */

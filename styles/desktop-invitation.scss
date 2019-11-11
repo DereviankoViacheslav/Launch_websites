@@ -1,0 +1,21 @@
+.desktop-invitation {
+    position: relative;
+    margin-top: -62px;
+    padding: 30px 60px;
+    background-image: url(../img/bg-please-visit-desktop-site-section.png);
+
+    @include for-large-up {
+        display: none;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        line-height: 40px;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFF;
+    }
+}

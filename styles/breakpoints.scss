@@ -1,4 +1,4 @@
-$lg: 1400px;
+$lg: 1024px;
 
 @mixin for-large-up {
     @media screen and (min-width: $lg) {
@@ -10,4 +10,9 @@ $lg: 1400px;
     @media screen and (max-width: $lg - 1) {
         @content;
     }
+}
+
+@mixin align-center() {
+    max-width: 1120px;
+    margin: 0 auto;
 }
