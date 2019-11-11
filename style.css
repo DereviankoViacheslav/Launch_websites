@@ -2,16 +2,20 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
   font-family: "Muli", sans-serif;
+  color: #11223F;
   background: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
 }
 @media screen and (min-width: 1024px) {
   body {
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(../img/bg-main-decor.png);
   }
 }
@@ -107,7 +111,6 @@ body {
   font-size: 40px;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #11223F;
 }
 .headline__description {
   margin: 0;
@@ -115,7 +118,6 @@ body {
   margin-top: 20px;
   font-size: 20px;
   line-height: 40px;
-  color: #11223F;
 }
 .headline__upload-btn {
   width: 300px;
@@ -220,7 +222,121 @@ body {
   padding: 0;
   line-height: 30px;
   font-size: 16px;
-  color: #11223F;
+}
+
+@media screen and (min-width: 1024px) {
+  .workflow {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+}
+.workflow__title {
+  position: relative;
+  margin: 120px 60px 0;
+  line-height: 60px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 1024px) {
+  .workflow__title {
+    margin: 0;
+    margin-top: 120px;
+  }
+}
+.workflow__title::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  left: 0;
+  bottom: -12px;
+  border-bottom: 2px solid #1968FC;
+}
+@media screen and (min-width: 1024px) {
+  .workflow__title::after {
+    left: -40px;
+  }
+}
+.workflow__steps {
+  margin-top: 60px;
+}
+@media screen and (min-width: 1024px) {
+  .workflow__steps {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+}
+
+.step {
+  position: relative;
+  width: 520px;
+  margin: 40px auto 0;
+  padding: 40px;
+  background-color: #FFF;
+  box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+}
+@media screen and (min-width: 1024px) {
+  .step {
+    height: 220px;
+    width: 320px;
+    margin: 0;
+  }
+  .step:nth-child(2) {
+    margin-top: 40px;
+  }
+  .step:nth-child(3) {
+    margin-top: 80px;
+  }
+}
+.step__subtitle {
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.step__title {
+  margin: 0;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1967FA;
+}
+.step__description {
+  margin: 0;
+  margin-top: 10px;
+  line-height: 30px;
+  font-size: 16px;
+}
+.step__decor-icon {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+.step__decoration-figure {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  right: -5px;
+  bottom: -5px;
+}
+.step:not(:first-of-type)::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 40px;
+  left: 60px;
+  top: -38px;
+  background-image: url(../img/img-card-connector-mobile.png);
+}
+@media screen and (min-width: 1024px) {
+  .step:not(:first-of-type)::after {
+    width: 70px;
+    height: 2px;
+    left: -75px;
+    top: 70px;
+    background-image: url(../img/img-card-connector-line.png);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
