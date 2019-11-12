@@ -99,14 +99,14 @@
         height: 40px;
         left: 60px;
         top: -38px;
-        background-image: url(../img/img-card-connector-mobile.png);
+        background-image: url(./img/img-card-connector-mobile.png);
 
         @include for-large-up {
             width: 70px;
             height: 2px;
             left: -75px;
             top: 70px;
-            background-image: url(../img/img-card-connector-line.png);
+            background-image: url(./img/img-card-connector-line.png);
         }
     }
 }

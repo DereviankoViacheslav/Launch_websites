@@ -145,7 +145,7 @@ body {
   position: relative;
   margin-top: -62px;
   padding: 30px 60px;
-  background-image: url(../img/bg-please-visit-desktop-site-section.png);
+  background-image: url(./img/bg-please-visit-desktop-site-section.png);
 }
 @media screen and (min-width: 1024px) {
   .desktop-invitation {
@@ -340,7 +340,7 @@ body {
   height: 40px;
   left: 60px;
   top: -38px;
-  background-image: url(../img/img-card-connector-mobile.png);
+  background-image: url(./img/img-card-connector-mobile.png);
 }
 @media screen and (min-width: 1024px) {
   .step:not(:first-of-type)::after {
@@ -348,7 +348,7 @@ body {
     height: 2px;
     left: -75px;
     top: 70px;
-    background-image: url(../img/img-card-connector-line.png);
+    background-image: url(./img/img-card-connector-line.png);
   }
 }
 
