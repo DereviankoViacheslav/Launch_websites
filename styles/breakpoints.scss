@@ -16,3 +16,24 @@ $lg: 1024px;
     max-width: 1120px;
     margin: 0 auto;
 }
+
+@mixin title-style($text-color, $underline-color) {
+    position: relative;
+    line-height: 60px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: $text-color;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 80px;
+        left: 0;
+        bottom: -12px;
+        border-bottom: 2px solid $underline-color;
+
+        @include for-large-up {
+            left: -40px;
+        }
+    }
+}
