@@ -15,7 +15,7 @@ body {
     @include for-large-up {
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url(../img/bg-main-decor.png);
+        background-image: url(./img/bg-main-decor.png);
     }
 }
 
