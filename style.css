@@ -72,6 +72,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .logo__text {
   margin-left: 10px;
@@ -826,6 +827,7 @@ body {
   align-items: center;
   margin-right: 70px;
   background: rgba(25, 104, 252, 0.05);
+  cursor: pointer;
 }
 .page-footer__logo-icon {
   height: 50px;
