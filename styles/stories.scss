@@ -1,0 +1,64 @@
+.stories {
+    @include align-center();
+    margin-top: 60px;
+
+    &__title {
+        margin: 0 60px;
+
+        @include title-style($text-color-primary, $color-main);
+
+        @include for-large-up {
+            margin: 0;
+        }
+    }
+
+    &__content-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 10px;
+
+        @include for-large-up {
+            justify-content: space-between;
+        }
+    }
+
+    &__story {
+        margin-top: 40px;
+    }
+}
+
+.story-card {
+    max-width: 520px;
+
+    &__title-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        height: 33px;
+        width: 40px;
+    }
+
+    &__title {
+        padding-left: 20px;
+        line-height: 40px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #111;
+    }
+
+    &__description {
+        margin: 0;
+        margin-top: 20px;
+        padding-left: 60px;
+        line-height: 30px;
+        font-size: 16px;
+        color: #000000;
+    }
+
+    &__link {
+        color: #000000;
+    }
+}
