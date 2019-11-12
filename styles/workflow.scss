@@ -1,17 +1,18 @@
 .workflow {
+    margin-top: 120px;
 
     @include for-large-up {
         @include align-center();
+        margin-top: 120px;
     }
 
     &__title {
-        margin: 120px 60px 0;
+        margin: 0 60px;
         
         @include title-style($text-color-primary, $color-main);
         
         @include for-large-up {
             margin: 0;
-            margin-top: 120px;
         }
     }
 
