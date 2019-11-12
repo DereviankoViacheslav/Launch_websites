@@ -6,12 +6,6 @@ $lg: 1024px;
     }
 }
 
-@mixin for-large-down {
-    @media screen and (max-width: $lg - 1) {
-        @content;
-    }
-}
-
 @mixin align-center() {
     max-width: 1120px;
     margin: 0 auto;

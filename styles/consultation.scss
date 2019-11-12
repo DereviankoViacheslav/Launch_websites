@@ -30,7 +30,7 @@
         margin-top: 50px;
         line-height: 40px;
         font-size: 20px;
-        color: #FFFFFF;
+        color: $color-secondary;
 
         @include for-large-up {
             margin-top: 60px;
@@ -45,7 +45,7 @@
         line-height: 20px;
         text-transform: uppercase;
         color: $color-main;
-        background: #FFFFFF;
+        background: $color-secondary;
         box-shadow: 4px 4px 20px rgba(255, 255, 255, 0.4)
     }
 
