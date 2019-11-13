@@ -684,7 +684,7 @@ body {
   }
 }
 .consultation__description {
-  max-width: 625px;
+  max-width: 640px;
   margin: 0;
   margin-top: 50px;
   padding-right: 15px;
@@ -855,18 +855,18 @@ body {
   }
 }
 
-.footer__logo {
+.footer-logo {
   display: flex;
   align-items: center;
   margin-right: 70px;
   background: rgba(25, 104, 252, 0.05);
   cursor: pointer;
 }
-.footer__logo__logo-icon {
+.footer-logo__logo-icon {
   height: 50px;
   width: 50px;
 }
-.footer__logo__logo-text {
+.footer-logo__logo-text {
   padding: 0 19px;
   line-height: 20px;
   font-size: 14px;
