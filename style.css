@@ -127,7 +127,7 @@ body {
   padding: 0;
   line-height: 60px;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 .headline__description {
@@ -665,6 +665,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   color: white;
+  width: fit-content;
   margin: 0;
   font-weight: 700;
 }
@@ -687,7 +688,7 @@ body {
   }
 }
 .consultation__description {
-  max-width: 620px;
+  max-width: 640px;
   margin: 0;
   margin-top: 50px;
   line-height: 40px;

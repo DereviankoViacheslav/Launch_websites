@@ -16,6 +16,7 @@
 
     &__title {
         @include title-style(white, white);
+        width: fit-content;
         margin: 0;
         font-weight: 700;
 
@@ -25,7 +26,7 @@
     }
 
     &__description {
-        max-width: 620px;
+        max-width: 640px;
         margin: 0;
         margin-top: 50px;
         line-height: 40px;
