@@ -175,6 +175,7 @@ body {
     max-width: 1120px;
     margin: 0 auto;
     margin-top: 160px;
+    padding-top: 0;
   }
 }
 
