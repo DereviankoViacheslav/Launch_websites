@@ -1,4 +1,5 @@
 .reviews {
+    padding-top: 50px;
 
     @include for-large-up {
         display: flex;
@@ -12,10 +13,17 @@
     position: relative;
     width: 540px;
     margin: 0 auto;
-    margin-top: 50px;
     padding: 40px;
     background-color: $color-secondary;
     box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+
+    &:nth-child(2) {
+        margin-top: 50px;
+
+        @include for-large-up {
+            margin: 0;
+        }
+    }
 
     @include for-large-up {
         margin: 0;

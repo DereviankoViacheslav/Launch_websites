@@ -1,6 +1,5 @@
 .page-footer {
     margin-top: 60px;
-    margin-bottom: 90px;
     background-color: #FBFBFB;
 
     @include for-large-up {
@@ -17,27 +16,6 @@
         @include for-large-up {
             @include align-center();
         }
-    }
-
-    &__logo {
-        display: flex;
-        align-items: center;
-        margin-right: 70px;
-        background: rgba(25, 104, 252, 0.05);
-        cursor: pointer;
-    }
-
-    &__logo-icon {
-        height: 50px;
-        width: 50px;
-    }
-
-    &__logo-text {
-        padding: 0 19px;
-        line-height: 20px;
-        font-size: 14px;
-        font-weight: 600;
-        color: $color-main;
     }
 
     &__nav {
@@ -58,15 +36,35 @@
     &__decor-img {
         position: absolute;
         right: 0;
-        bottom: -13px;
+        bottom: 0;
         height: 60px;
         width: 55px;
 
         @include for-large-up {
             height: 100px;
             width: 90px;
-            bottom: 0;
         }
+    }
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+    background: rgba(25, 104, 252, 0.05);
+    cursor: pointer;
+
+    &__logo-icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    &__logo-text {
+        padding: 0 19px;
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        color: $color-main;
     }
 }
 

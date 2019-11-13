@@ -165,6 +165,9 @@ body {
   color: #FFF;
 }
 
+.reviews {
+  padding-top: 50px;
+}
 @media screen and (min-width: 1024px) {
   .reviews {
     display: flex;
@@ -179,10 +182,17 @@ body {
   position: relative;
   width: 540px;
   margin: 0 auto;
-  margin-top: 50px;
   padding: 40px;
   background-color: #fff;
   box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+}
+.review:nth-child(2) {
+  margin-top: 50px;
+}
+@media screen and (min-width: 1024px) {
+  .review:nth-child(2) {
+    margin: 0;
+  }
 }
 @media screen and (min-width: 1024px) {
   .review {
@@ -520,7 +530,7 @@ body {
 }
 @media screen and (min-width: 1024px) {
   .users__content-wrapper {
-    margin: 20px 0 0;
+    margin: 30px 0 0;
   }
 }
 .users__item {
@@ -673,7 +683,7 @@ body {
   }
 }
 .consultation__description {
-  max-width: 640px;
+  max-width: 625px;
   margin: 0;
   margin-top: 50px;
   line-height: 40px;
@@ -774,6 +784,7 @@ body {
   color: #111;
 }
 .story-card__description {
+  max-width: 470px;
   margin: 0;
   margin-top: 20px;
   padding-left: 60px;
@@ -787,7 +798,6 @@ body {
 
 .page-footer {
   margin-top: 60px;
-  margin-bottom: 90px;
   background-color: #FBFBFB;
 }
 @media screen and (min-width: 1024px) {
@@ -808,24 +818,6 @@ body {
     margin: 0 auto;
   }
 }
-.page-footer__logo {
-  display: flex;
-  align-items: center;
-  margin-right: 70px;
-  background: rgba(25, 104, 252, 0.05);
-  cursor: pointer;
-}
-.page-footer__logo-icon {
-  height: 50px;
-  width: 50px;
-}
-.page-footer__logo-text {
-  padding: 0 19px;
-  line-height: 20px;
-  font-size: 14px;
-  font-weight: 600;
-  color: #1968FC;
-}
 @media screen and (min-width: 1024px) {
   .page-footer__nav {
     margin-right: 70px;
@@ -840,7 +832,7 @@ body {
 .page-footer__decor-img {
   position: absolute;
   right: 0;
-  bottom: -13px;
+  bottom: 0;
   height: 60px;
   width: 55px;
 }
@@ -848,8 +840,26 @@ body {
   .page-footer__decor-img {
     height: 100px;
     width: 90px;
-    bottom: 0;
   }
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+  background: rgba(25, 104, 252, 0.05);
+  cursor: pointer;
+}
+.footer__logo__logo-icon {
+  height: 50px;
+  width: 50px;
+}
+.footer__logo__logo-text {
+  padding: 0 19px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1968FC;
 }
 
 .nav-list {
