@@ -4,8 +4,8 @@
 > Supports mobile and desktop versions
 > 
 The tech stack is:
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/)
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [Sass (Scss)](https://sass-lang.com/)
 
 ### Author
