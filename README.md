@@ -7,3 +7,7 @@ The tech stack is:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/)
 - [Sass (Scss)](https://sass-lang.com/)
+
+### Author
+
+- Derevianko Viacheslav
