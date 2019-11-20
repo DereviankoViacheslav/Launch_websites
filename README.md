@@ -1,7 +1,7 @@
 ![VanGoux Logo](https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/LogoSmallSolid.png)
 [VanGoux](https://dereviankoviacheslav.github.io/Launch_websites/)
 # Webpage VanGoux
-> Supports mobile and desktop versions
+> Supports mobile (up-to-640) and desktop (up-to-1024) versions
 > 
 The tech stack is:
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
