@@ -1,5 +1,5 @@
 ![VanGoux Logo](https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/LogoSmallSolid.png)
-[VanGoux](https://dereviankoviacheslav.github.io/Launch_websites/)
+[VanGoux](https://dereviankoviacheslav.github.io/vangoux-website/)
 # Webpage VanGoux
 > Supports mobile (up-to-640) and desktop (up-to-1024) versions
 > 
